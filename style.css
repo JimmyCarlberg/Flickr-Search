@@ -163,7 +163,7 @@
                 width: 100%;
                 padding: 1.618rem;
                 border: none;
-                border-radius: 50px;
+                border-radius: 15px;
                 box-shadow: rgb(255, 255, 255) -15px -15px 25px, rgb(167, 167, 167) 15px 15px 25px, rgb(230, 230, 230) inset 15px 15px 25px ;
     
             }
