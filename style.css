@@ -122,3 +122,52 @@
             box-shadow: rgb(255, 255, 255) -15px -15px 25px, rgb(167, 167, 167) 15px 15px 25px, rgb(230, 230, 230) 15px 15px 25px ;
             transition: all 300ms ease-in-out;
         }
+
+        @media only screen and (max-width: 600px){
+            .flex-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                padding:1.618rem;
+                width: 100%;
+                
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            h1 {
+                font-size: 2.326rem ;
+            }
+
+            button {
+                margin: 2.326rem 0 0 0;
+            }
+
+            main {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items:flex-start;
+                gap: 20px;
+            }
+
+            main div {
+                height: auto;
+                width: 100%;
+                padding: 1.618rem;
+                border: none;
+                border-radius: 50px;
+                box-shadow: rgb(255, 255, 255) -15px -15px 25px, rgb(167, 167, 167) 15px 15px 25px, rgb(230, 230, 230) inset 15px 15px 25px ;
+    
+            }
+
+            
+            
+        }
